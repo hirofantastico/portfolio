@@ -48,21 +48,10 @@ li{
     src: url(font/SF-Pro-Display-Semibold.otf);
 }
 @font-face {
-    font-family: SF-Pro-Medium;
-    src: url(font/SF-Pro-Display-Medium.otf);
+	font-family: SF-Pro-Regular;
+	src: url(font/SF-Pro-Display-Regular.otf);
 }
-@font-face {
-    font-family: SF-Pro-Regular;
-    src: url(font/SF-Pro-Display-Regular.otf);
-}
-@font-face {
-    font-family: SF-Pro-Light;
-    src: url(font/SF-Pro-Display-Light.otf);
-}
-@font-face {
-    font-family: handW;
-    src: url(font/JustAnotherHand-Regular.ttf);
-}
+
 @font-face {
     font-family: ibm;
     src: url(font/PTMono-Regular.ttf);
@@ -144,7 +133,7 @@ li{
 
 .box {
 	width: 1300px;
-	padding: 100px 0 100px 0;
+	padding: 140px 0 100px 0;
 	margin: 0 auto;
 }
 
@@ -158,16 +147,16 @@ li{
 	font-family: 'SF-Pro-Bold';
 	-webkit-font-smoothing: antialiased;
 	font-size: 72px;
-	padding-bottom: 44px;
+	padding-bottom: 24px;
 	line-height: 78px;
 }
 
 .pjbody {
 	font-family: 'SF-Pro-Semibold';
 	-webkit-font-smoothing: antialiased;
-	font-size: 24px;
+	font-size: 20px;
 	color: gray;
-	max-width: 600px;
+	max-width: 480px;
 	margin: 0 auto;
 }
 
@@ -176,7 +165,7 @@ li{
 	-webkit-font-smoothing: antialiased;
 	font-size: 20px;
 	padding-bottom: 80px;
-	padding-top: 20px;
+	padding-top: 10px;
 	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -227,7 +216,6 @@ li{
 /*PJ02*/
 .pj02 {
 	width: 100%;
-	margin: 100px 0 0 0;
 	background-color: #ffffff;
 }
 
@@ -251,7 +239,6 @@ li{
 /*PJ03*/
 .pj03 {
 	width: 100%;
-	margin: 100px 0 0 0;
 	background-color: #fbfbfb;
 }
 
@@ -275,7 +262,6 @@ li{
 /*PJ04*/
 .pj04 {
 	width: 100%;
-	margin: 100px 0 0 0;
 	background-color: #ffffff;
 }
 
@@ -295,4 +281,8 @@ li{
 	vertical-align: top
 }
 
-
+.logo_img {
+	width: 100px;
+	display: inline-block;
+	padding-bottom: 10px;
+}
