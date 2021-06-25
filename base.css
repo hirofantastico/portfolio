@@ -6,7 +6,7 @@ body,html{
 	color: #111;
 	font-family: 'SF-Pro-Light';
 	font-size: 13px;
-	color: #232325;
+	color: #2C2C2C;
 }
 *{
 	margin:0;
@@ -14,7 +14,7 @@ body,html{
 }
 a{
 	text-decoration: none;
-	color: #232325;
+	color: #2C2C2C;
 }
 a:hover{
 	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
@@ -27,6 +27,7 @@ a:hover{
 }
 li{
 	list-style: none;
+	padding-bottom: 8px;
 }
 .borderleft{
 	border-right: 10px solid rgba(0, 0, 0, 0.7);
@@ -61,9 +62,10 @@ li{
 
 /*HEADER*/
 .info {
-	font-family: 'ibm';
-	font-size: 12px;
-	letter-spacing: -0.5px;
+	font-family: 'SF-Pro-Regular';
+	-webkit-font-smoothing: antialiased;
+	font-size: 14px;
+	letter-spacing: 0.5px;
 	width: 1200px;
 	height: 80px;
 	margin: 0 auto;
@@ -112,10 +114,11 @@ li{
   }
 }
 .sub {
-	font-size: 12px;
+	font-size: 14px;
 	margin-top: 100px;
-	letter-spacing: -0.5px;
-	font-family: 'ibm';
+	letter-spacing: 0.5px;
+	font-family: 'SF-Pro-Regular';
+	-webkit-font-smoothing: antialiased;
 }
 .sub strike {
 	text-decoration: line-through;
@@ -285,4 +288,5 @@ li{
 	width: 100px;
 	display: inline-block;
 	padding-bottom: 10px;
+	vertical-align: middle;
 }
