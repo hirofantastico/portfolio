@@ -210,7 +210,7 @@ li{
 }
 .pj01 .right_img {
 	max-width: 300px;
-  margin-left: 80px;
+  margin-left: 50px;
 	display: inline-block;
 	vertical-align: top
 }
@@ -233,14 +233,13 @@ li{
 }
 .pj02 .right_img {
 	max-width: 340px;
-  margin-left: 80px;
+  margin-left: 50px;
 	display: inline-block;
 	vertical-align: top
 }
 .pj02 .right_img_vid {
 	max-width: 340px;
-	margin-left: 80px;
-	margin-top: 18px;
+	margin-left: 50px;
 	display: inline-block;
 	vertical-align: top
 }
@@ -263,13 +262,13 @@ li{
 }
 .pj03 .right_img {
 	max-width: 340px;
-  margin-left: 80px;
+  margin-left: 50px;
 	display: inline-block;
 	vertical-align: top
 }
 .pj03 .right_img_vid {
 	max-width: 340px;
-	margin-left: 80px;
+	margin-left: 70px;
 	margin-top: 18px;
 	display: inline-block;
 	vertical-align: top
@@ -294,7 +293,7 @@ li{
 }
 .pj04 .right_img {
 	max-width: 340px;
-	margin-left: 80px;
+	margin-left: 50px;
 	display: inline-block;
 	vertical-align: top
 }
@@ -306,7 +305,7 @@ li{
 	vertical-align: middle;
 }
 
-/*PJ03*/
+/*PJ05*/
 .pj05 {
 	width: 100%;
 	background-color: #fbfbfb;
@@ -323,8 +322,7 @@ li{
 }
 .pj05 .right_img_vid {
 	max-width: 340px;
-	margin-left: 80px;
-	margin-top: 14px;
+	margin-left: 50px;
 	display: inline-block;
 	vertical-align: top;
 }
