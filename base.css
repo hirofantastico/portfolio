@@ -237,6 +237,13 @@ li{
 	display: inline-block;
 	vertical-align: top
 }
+.pj02 .right_img_vid {
+	max-width: 340px;
+	margin-left: 80px;
+	margin-top: 18px;
+	display: inline-block;
+	vertical-align: top
+}
 
 
 /*PJ03*/
@@ -260,6 +267,14 @@ li{
 	display: inline-block;
 	vertical-align: top
 }
+.pj03 .right_img_vid {
+	max-width: 340px;
+	margin-left: 80px;
+	margin-top: 18px;
+	display: inline-block;
+	vertical-align: top
+}
+
 
 
 /*PJ04*/
@@ -289,4 +304,27 @@ li{
 	display: inline-block;
 	padding-bottom: 10px;
 	vertical-align: middle;
+}
+
+/*PJ03*/
+.pj05 {
+	width: 100%;
+	background-color: #fbfbfb;
+}
+
+.img_box {
+	text-align: center;
+}
+
+.pj05 .left_img {
+	max-width: 800px;
+	display: inline-block;
+	vertical-align: top;
+}
+.pj05 .right_img_vid {
+	max-width: 340px;
+	margin-left: 80px;
+	margin-top: 14px;
+	display: inline-block;
+	vertical-align: top;
 }
