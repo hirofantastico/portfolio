@@ -157,9 +157,9 @@ li{
 .pjbody {
 	font-family: 'SF-Pro-Regular';
 	-webkit-font-smoothing: antialiased;
-	font-size: 18px;
+	font-size: 16px;
 	color: gray;
-	max-width: 480px;
+	max-width: 420px;
 	margin: 0 auto;
 }
 
