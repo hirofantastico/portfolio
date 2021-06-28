@@ -3,7 +3,6 @@
 body,html{
 	margin: 0;
 	-webkit-font-smoothing: antialiased !important;
-	color: #111;
 	font-family: 'SF-Pro-Light';
 	font-size: 13px;
 	color: #2C2C2C;
@@ -13,8 +12,9 @@ body,html{
 	padding:0;
 }
 a{
-	text-decoration: underline;
-	color: #2C2C2C;
+	border-bottom: 1.5px solid rgba(252,51,89,0.4);
+	text-decoration: none;
+	color: gray;
 }
 a:hover{
 	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
@@ -136,6 +136,12 @@ li{
 
 .box {
 	width: 1300px;
+	padding: 40px 0 140px 0;
+	margin: 0 auto;
+}
+
+.box_company {
+	width: 1300px;
 	padding: 140px 0 140px 0;
 	margin: 0 auto;
 }
@@ -144,15 +150,22 @@ li{
 	margin: 0 auto;
 	width: 800px;
 	text-align: center;
-	padding-bottom: 80px;
+	padding-bottom: 64px;
 }
 
-.pjtitle {
+.company_name {
 	font-family: 'SF-Pro-Bold';
 	-webkit-font-smoothing: antialiased;
 	font-size: 60px;
 	padding-bottom: 24px;
 	line-height: 78px;
+}
+
+.pjtitle {
+	font-family: 'SF-Pro-Bold';
+	-webkit-font-smoothing: antialiased;
+	font-size: 28px;
+	padding-bottom: 24px;
 }
 
 .pjbody {
@@ -162,6 +175,7 @@ li{
 	color: gray;
 	max-width: 420px;
 	margin: 0 auto;
+	line-height: 22px;
 }
 
 .pjsubtitle {
@@ -203,6 +217,10 @@ li{
 	width: 100%;
 }
 
+.box_company img{
+	width: 100%;
+}
+
 .pj01 .left_img {
 	max-width: 900px;
 	display: inline-block;
@@ -219,7 +237,7 @@ li{
 /*PJ02*/
 .pj02 {
 	width: 100%;
-	background-color: #ffffff;
+	background-color: #fbfbfb;
 }
 
 .img_box {
@@ -279,7 +297,7 @@ li{
 /*PJ04*/
 .pj04 {
 	width: 100%;
-	background-color: #ffffff;
+	background-color: #fbfbfb;
 }
 
 .img_box {
@@ -308,7 +326,7 @@ li{
 /*PJ05*/
 .pj05 {
 	width: 100%;
-	background-color: #fbfbfb;
+	background-color: #ffffff;
 }
 
 .img_box {
