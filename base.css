@@ -363,3 +363,25 @@ li{
 	display: inline-block;
 	vertical-align: top;
 }
+
+/*PJ07*/
+.pj07 {
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.img_box {
+	text-align: center;
+}
+
+.pj07 .left_img {
+	max-width: 800px;
+	display: inline-block;
+	vertical-align: top;
+}
+.pj07 .right_img_vid {
+	max-width: 340px;
+	margin-left: 50px;
+	display: inline-block;
+	vertical-align: top;
+}
