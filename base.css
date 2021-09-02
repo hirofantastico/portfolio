@@ -1,99 +1,340 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-  <title>H.</title>
-  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-  <link rel="stylesheet" type="text/css" href="base.css" />
-</head>
 
-<body>
+/*GENERAL*/
+body,html{
+	margin: 0;
+	font-family: 'Aeonik-Regular';
+	overflow-x: hidden
+}
+*{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style: none;
+	padding-bottom: 8px;
+}
 
-<div class="container">
+a {
+	color: black;
+}
+a:hover {
+	color: gray;
+}
 
-  <header>
-    <div class="intro">
-      <p>Hiro is a product designer with over 6 years experience. Previously worked in London, San francisco and currently based in Tokyo.</p>
-    </div>
-  </header>
+/*FONT*/
+@font-face {
+	font-family: Aeonik-Regular;
+	src: url(font/Aeonik-Regular.ttf);
+}
 
-  <content>
-    <div class="pj02">
-      <div class="img_pj02">
-        <img src="img/nlo2.png">
-        <video autoplay muted loop><source src="img/nlo2.mp4" type="video/mp4"></video>
-      </div>
-      <div class="description_pj02">
-        <h1>Mercari — NLO</h1>
-        <p>Selling is core of Mercari. However, not many of us know what we have at home that sells. I lead design to help new sellers discover items to sell from their homes.</p>
-        <a href="nlo.html"><div class="cta">View more</div></a>
-      </div>
-    </div>
+.container {
+	width: 100%;
+}
 
-    <div class="pj01">
-      <div class="description_pj01">
-        <h1>Mercari — Loyalty Program</h1>
-        <p>Lead design to create a loyalty program where sellers can get a lower sales fee based on their earnings on the market place. By reducing the sales fee, we encouraged sellers to list and sell more allowing for us to regain the lost sales fee and grow our marketplace.</p>
-        <a href="sellertier.html"><div class="cta">View more</div></a>
-      </div>
-      <div class="img_pj01">
-        <img src="img/loyalty.png">
-      </div>
-    </div>
 
-    <div class="pj02">
-      <div class="img_pj02">
-        <img src="img/offer.png">
-        <video autoplay muted loop><source src="img/offer.mp4" type="video/mp4"></video>
-      </div>
-      <div class="description_pj02">
-        <h1>Mercari — Private Offers</h1>
-        <p>Lead design to create a seller tool which enables sellers to make private offers to people who liked their item. This is one of the most used feature and continuing to make positive impact on overall sales.</p>
-        <a href="offer.html"><div class="cta">View more</div></a>
-      </div>
-    </div>
 
-    <div class="pj01">
-      <div class="description_pj01">
-        <h1>Mercari — Product Information</h1>
-        <p>Product page is where it drives most of the traffic on Mercari. I lead to re-design the overall page and help people to have better shopping experience.</p>
-        <div class="cta_disabled">Coming soon</div>
-      </div>
-      <div class="img_pj01">
-        <video autoplay muted loop><source src="img/item_detail.mp4" type="video/mp4"></video>
-      </div>
-    </div>
+/*HEADER*/
+.intro {
+	width: 100%;
+	max-width: 1800px;
+	margin: 0 auto;
+	padding-top: 160px;
+	padding-bottom: 120px;
+}
+.intro p {
+	font-size: 66px;
+	line-height: 72px;
+	letter-spacing: 0px;
+	padding-left: 13%;
+	padding-right: 280px;
+}
 
-    <div class="pj02">
-      <div class="img_pj03">
-        <img src="img/gg.png">
-      </div>
-      <div class="description_pj02">
-        <h1>Mercari — Digital Games</h1>
-        <p>Lead design to create an entire platform for trading digital goods leveraging the Mercari escrow payment system.</p>
-        <a href="https://www.figma.com/file/D1WUYqmtcGzDthavfnNJ5u/GG?node-id=0%3A1" target="_blank"><div class="cta">View more</div></a>
-      </div>
-    </div>
 
-    <div class="pj01">
-      <div class="description_pj01">
-        <h1>Origami Pay — Mobile Payment</h1>
-        <p><a href="https://play.google.com/store/apps/details?id=co.origami.android&hl=en&gl=US" target="_blank">Origami</a> offers seamless payment infrastructure for both merchants and consumers. I've joined the company at the early phase with 10 employees. I was fortunate to be part of their shift from e-commerce platform to payment service. Origami was <a href="https://www.techinasia.com/mercari-acquires-origami" target="_blank">acquired by Mercari</a> in 2020.</p>
-      </div>
-      <div class="img_pj01_single">
-        <video autoplay muted loop><source src="img/pay.mp4" type="video/mp4"></video>
-      </div>
-    </div>
 
-    <footer>
-      <div class="contact_info">
-        <li>hiroyuki.noguchi7@gmail.com</li>
-        <li><a href="https://www.linkedin.com/in/hiroyukinoguchi/" target="_blank"> CV</a></li>
-      </div>
-    </footer>
-  </content>
+/*pj01*/
+.pj01 {
+	width: 100%;
+	max-width: 1800px;
+	margin: 0 auto;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	display: flex;
+	align-items:center;
+}
 
-</div>
+.img_pj01 {
+	width: 100%;
+	display: inline-block;
+	padding-right: 4%;
+	text-align: right;
+}
 
-</body>
+.img_pj01 video {
+	width: 90%;
+}
+
+.img_pj01 img {
+	width: 74%;
+}
+
+.description_pj01 {
+	width: 50%;
+	padding-left: 13%;
+	display: inline-block;
+}
+
+.description_pj01 p {
+	font-size: 20px;
+	line-height: 30px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.description_pj01 h1 {
+	font-weight: normal;
+	font-size: 46px;
+	letter-spacing: 0.5px;
+	padding-bottom: 10px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.cta {
+	background-color: #000000;
+	border: none;
+	color: #ffffff;
+	border-radius: 2px;
+	padding: 14px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 32px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.cta_disabled {
+	background-color: ##cecece;
+	border: none;
+	color: #ffffff;
+	border-radius: 2px;
+	padding: 14px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 32px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.visible_pj01 {
+  display: none;
+  }
+
+
+
+
+/*pj02*/
+.pj02 {
+	width: 100%;
+	max-width: 1800px;
+	margin: 0 auto;
+	padding-top: 120px;
+	padding-bottom: 160px;
+	display: flex;
+	align-items:center;
+}
+
+.img_pj02 {
+	width: 100%;
+	display: inline-block;
+	padding-left: 4%;
+	text-align: left;
+}
+
+.img_pj02 img{
+	width: 36%;
+}
+
+.img_pj02 video {
+	width: 36%;
+	padding-left: 2%;
+}
+
+.description_pj02 {
+	width: 50%;
+	padding-right: 13%;
+	display: inline-block;
+}
+
+.description_pj02 p {
+	font-size: 20px;
+    	line-height: 30px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.description_pj02 h1 {
+	font-weight: normal;
+	font-size: 46px;
+	letter-spacing: 0.5px;
+	padding-bottom: 10px;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+.img_pj01_single {
+	width: 100%;
+	display: inline-block;
+	text-align: right;
+}
+.img_pj01_single video {
+	width: 40%;
+	display: inline-block;
+	padding-right: 32%;
+	text-align: right;
+}
+
+
+.img_pj03 {
+	width: 100%;
+	display: inline-block;
+	padding-left: 4%;
+	text-align: left;
+}
+
+.img_pj03 img {
+	width: 90%;
+}
+
+
+
+.contact_info {
+	width: 100%;
+	max-width: 1800px;
+	margin: 0 auto;
+	padding-top: 160px;
+	padding-bottom: 120px;
+}
+.contact_info li {
+	-webkit-font-smoothing: antialiased;
+	font-size: 36px;
+	line-height: 72px;
+	letter-spacing: 0px;
+	padding-right: 280px;
+	padding-left: 13%;
+}
+
+
+/*nlo*/
+.title {
+	width: 100%;
+	max-width: 1800px;
+	margin: 0 auto;
+	padding-top: 160px;
+}
+.title p {
+	font-size: 44px;
+	line-height: 52px;
+	padding-left: 13%;
+	padding-right: 13%;
+	-webkit-font-smoothing: antialiased;
+}
+.title_sml {
+	width: 100%;
+	max-width: 1800px;
+	margin: 0 auto;
+	padding-bottom: 16px;
+}
+.title_sml p {
+	font-size: 32px;
+	line-height: 38px;
+	padding-left: 13%;
+	padding-right: 13%;
+	-webkit-font-smoothing: antialiased;
+}
+
+.sub_info {
+    width: 100%;
+    height: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding-bottom: 44px;
+    padding-top: 140px;
+    font-size: 20px;
+    line-height: 28px;
+    overflow:auto;
+}
+.left {
+    width: 33%;
+    padding-left: 13%;
+    padding-right: 3%;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    float:left;
+}
+.right {
+    width: 33%;
+    padding-right: 13%;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    float:left;
+}
+
+.nlo_img01{
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+    background-color: #F6F6F6;
+    padding: 60px 0 60px 0;
+}
+.img_in{
+    padding-left: 13%;
+    padding-right: 13%;
+}
+.nlo_img01 img{
+    width: 100%;
+}
+.nlo_img01 video{
+    width: 100%;
+}
+
+
+
+/* Animation */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 0.7s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.7s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
